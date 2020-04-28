@@ -1,0 +1,407 @@
+/* NJIT IS117-004 Professor: 
+Mark Chuisano Spring 2020 (Corona Year) 
+Developped by : Anis Shili */
+
+body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-image: url("../images/code\ 22.jpg");
+    background-repeat: repeat;
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-family: 'Lora', serif;
+}
+
+.fav {
+    width: 16px;
+}
+
+.nav-link {
+    font-size: 26px;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    border: orange solid 2px;
+    color: white;
+}
+
+.contact-link img {
+    width: 29px;
+    float: right;
+    margin: 5px;
+}
+
+.contact-link {
+    margin: 30px 100px 20px 20px;
+}
+
+#world {
+    color: white;
+}
+
+.nav {
+    color: orange;
+}
+
+#nav-name {
+    color: orange;
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    margin: 40px;
+}
+
+main p {
+    font-weight: 600;
+    margin: 30px;
+}
+
+main button {
+    background-color: red;
+    font-size: 40px;
+    color: white;
+    border-radius: 40px;
+    padding: 0 25px;
+    margin: auto;
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+    flex-shrink: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer p {
+    background: linear-gradient(black, rgb(12, 8, 1));
+    text-align: center;
+    margin: 5px;
+    font-size: large;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 0;
+}
+
+footer img {
+    width: 900px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 2300px) {
+    footer img {
+        width: 750px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    footer img {
+        width: 700px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    footer img {
+        width: 550px;
+        height: 200px;
+    }
+    main button {
+        font-size: 40px;
+        width: 300px;
+    }
+    main h1 {
+        font-size: 4rem;
+    }
+}
+
+.languages img {
+    border-radius: 70px;
+    border: orange solid 2px;
+}
+
+.languages {
+    border-radius: 70px;
+    box-shadow: grey 5px 5px 14px;
+}
+
+.languages span {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30%px;
+}
+
+.c img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.c {
+    width: 200px;
+    height: 290px;
+    margin: 10%;
+}
+
+.c p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 500px) {
+    footer img {
+        width: 100px;
+        height: 50px;
+    }
+    footer {
+        text-align: center;
+        flex-shrink: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100px;
+    }
+    main {
+        width: 100%;
+        height: 500px;
+    }
+    main h1 {
+        font-size: 35px;
+        margin: 50px;
+    }
+    .contact-link img {
+        width: 29px;
+        float: right;
+        margin: 0;
+    }
+    nav {
+        margin: 0;
+    }
+    main button {
+        background-color: red;
+        font-size: 30px;
+        color: white;
+        border-radius: 40px;
+        padding: 0 45px;
+        margin: 50px;
+        border: red solid 4px;
+    }
+    .links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+    }
+    .c img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .c {
+        width: 15%;
+        height: 150px;
+        margin: 10%;
+        margin-left: 70px;
+    }
+    .c p {
+        display: none;
+    }
+    .card {
+        width: 100px;
+    }
+    main .apps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1s0px;
+        color: black;
+    }
+    .view img {
+        height: 220px;
+        border: black solid 4px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    footer img {
+        width: 200px;
+        height: 200px;
+    }
+    main h1 {
+        font-size: 55px;
+        margin: 50px;
+    }
+    main button {
+        font-size: 40px;
+        width: 340px;
+        margin-left: -5%;
+    }
+    .links {
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    .c img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .c {
+        width: 10%;
+        height: 190px;
+        margin: 25%;
+    }
+    .c p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    footer img {
+        width: 300px;
+        height: 150px;
+    }
+    main h1 {
+        font-size: 60px;
+    }
+    main button {
+        font-size: 40px;
+        width: 340px;
+        left: -150px;
+    }
+    .links {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 120px;
+    }
+    .c {
+        height: 190px;
+    }
+    .card {
+        width: 200px;
+    }
+    main .apps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        color: black;
+    }
+    .view img {
+        height: 220px;
+        border: black solid 4px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    footer img {
+        width: 400px;
+        height: 150px;
+    }
+    main button {
+        font-size: 40px;
+        width: 340px;
+    }
+    .links {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3%;
+        height: 100px;
+        width: 120px;
+        left: 120px;
+    }
+    .c p {
+        display: none;
+        width: 10%;
+    }
+    .c h2 {
+        font-size: 28px;
+        margin: 5px;
+    }
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: calc(50% - 40px);
+    border: 4px dotted orange;
+}
+
+.wrapper h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.wrapper input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 300px;
+}
+
+main .apps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    color: black;
+}
+
+.view img {
+    height: 220px;
+    border: black solid 4px;
+}
